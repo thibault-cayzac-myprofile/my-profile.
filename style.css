@@ -1,0 +1,201 @@
+/* Colors and fonts */
+
+body {
+    background-color: #E9EDDE;
+    color: rgb(35, 35, 35);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 80px 0 0; /* Adjusted to accommodate fixed navbar */
+}
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    color: #473BF0;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #473BF0;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+p {
+    text-align: justify;
+    margin: 15px 0;
+}
+
+/* Container and Layout */
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header img {
+    border-radius: 50%;
+    height: 200px; /* Increased height */
+    width: 200px; /* Increased width */
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow */
+    border: 5px solid #E9EDDE; /* Added border for better visibility */
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #473BF0;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: orange;
+}
+
+/* Card design */
+
+.card {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #473BF0;
+}
+
+.btn-blue:hover {
+    background-color: #372BB0;
+}
+
+.btn-orange {
+    background-color: orange;
+}
+
+.btn-orange:hover {
+    background-color: darkorange;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    color: #473BF0;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #372BB0;
+}
+
+/* Contact Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    align-self: flex-start;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #473BF0;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
